@@ -1,0 +1,22 @@
+{
+  "name": "@fourtwentyjs/config-typescript",
+  "version": "2.0.0",
+  "main": "tsconfig.json",
+  "license": "MIT",
+  "repository": "git@github.com:420integrated/fourtwentyjs-config.git",
+  "author": "Krzysztof Kaczor <chris@kaczor.io>",
+  "files": [
+    "tsconfig.json",
+    "tsconfig.prod.json",
+    "tsconfig.browser.json",
+    "cli",
+    "README.md"
+  ],
+  "bin": {
+    "fourtwentyjs-config-ts-compile": "./cli/ts-compile.sh",
+    "fourtwentyjs-config-ts-build": "./cli/ts-build.sh"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
